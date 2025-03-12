@@ -1,0 +1,79 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+            "responses": ["Hello!", "Hi there!", "Hey! How can I help?", "Good to see you!"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+            "responses": ["Goodbye!", "See you soon!", "Take care!", "Have a great day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "I appreciate it"],
+            "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "Tell me today's weather", "Will it rain today?"],
+            "responses": ["I can't check live weather, but you can use a weather app!", "It depends on your location."]
+        },
+        {
+            "tag": "booking",
+            "patterns": ["Can I book a flight?", "Help me book a hotel", "I need a ticket"],
+            "responses": ["You can book flights on airline websites.", "Try using a booking service like Expedia."]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Tell me the time", "Current time?"],
+            "responses": ["I can't check time, but your device clock can!", "Check your local time on your phone."]
+        },
+        {
+            "tag": "date",
+            "patterns": ["What's the date today?", "Tell me today's date", "Current date?"],
+            "responses": ["I can't check dates, but your device calendar can!", "Check the date on your phone."]
+        },
+        {
+            "tag": "food",
+            "patterns": ["Recommend me a restaurant", "Where should I eat?", "Good food places?"],
+            "responses": ["You can try searching on Google Maps!", "It depends on what kind of food you like!"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Can you help me?", "I need assistance", "Help me please"],
+            "responses": ["Of course! What do you need help with?", "I'm here to assist you."]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+            "responses": ["I am a chatbot!", "You can call me ChatBot.", "I'm an AI assistant."]
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old are you?", "What is your age?", "Tell me your age"],
+            "responses": ["I'm as old as the internet!", "I exist in cyberspace, so I don't have an age."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+            "responses": ["Why did the AI cross the road? To optimize the path!", "I told my computer a joke, but it didn’t laugh. Maybe it needed an upgrade!"]
+        },
+        {
+            "tag": "news",
+            "patterns": ["What's the news?", "Tell me the latest updates", "Any recent news?"],
+            "responses": ["I can't check live news, but you can try news websites like BBC or CNN."]
+        },
+        {
+            "tag": "sports",
+            "patterns": ["Tell me the latest sports news", "Who won the match?", "Sports updates?"],
+            "responses": ["I can't check live sports, but you can try ESPN or Google Sports."]
+        },
+        {
+            "tag": "movie",
+            "patterns": ["Recommend a movie", "What movie should I watch?", "Best movies to watch?"],
+            "responses": ["It depends on what you like! Try checking IMDb’s top-rated movies."]
+        }
+    ]
+}

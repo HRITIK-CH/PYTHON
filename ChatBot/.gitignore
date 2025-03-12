@@ -1,0 +1,7 @@
+venv/                    # Virtual environment files
+__pycache__/             # Python cache files
+*.pyc                    # Compiled Python files
+*.pkl                    # Model checkpoints (only if very large)
+*.log                    # Log files
+.DS_Store                # macOS system file
+.env                     # Environment variables
